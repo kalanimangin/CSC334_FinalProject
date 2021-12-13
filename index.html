@@ -2,43 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Kalani Mangin">
+    <meta name="copyright" content="December 12 2021">
     <title>Home</title>
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png"> <!-- Make this the logo of the website -->
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="https://kit.fontawesome.com/729aa822ab.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <!-- put a picture up here to be the logo for the site -->
-        <img src="">
+        <img src="images/logo.png" alt="Bamboo Emporium"> <!-- put a picture up here to be the logo for the site -->
+        <h1>The Bamboo Emporium</h1>
+        <h2>"We Sell Bamboo for Cheap"</h2>
         <nav>
-
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li class=""><a href="#">Products</a>
+                    <ul>
+                        <li><a href="#">Furniture</a></li>
+                        <li><a href="#">Tools</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact</a> </li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Welcome to my page</h1>
-        <section>
-            <h2>This is the home page</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus alias animi autem consectetur debitis earum fuga illum modi molestiae nostrum optio pariatur perferendis perspiciatis, placeat quaerat, qui quidem quod ratione recusandae reiciendis repellendus soluta suscipit vel voluptatem, voluptatibus voluptatum? Adipisci commodi cupiditate ducimus ea minus nobis odit perferendis voluptates.</p>
-            <h2>Come find out new things about me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur delectus ducimus eum exercitationem magnam odio pariatur veritatis! Nihil, vel?</p>
-            <h3>Smaller point in here</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse magni nihil nostrum nulla quas! A adipisci aspernatur, blanditiis dolore incidunt nostrum odio perspiciatis quisquam ratione?</p>
-        </section>
-        <aside>
-            <h3>Things that I like</h3>
-            <ol>
-                <li>Bananas</li>
-                <li>Apples</li>
-                <li>Blueberries</li>
-                <li>corndogs</li>
-            </ol>
-        </aside>
+        <div>
+            <section class="main">
+                <h1>Welcome to the Bamboo Emporium!</h1>
+                <h2>This is the home page</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dicta distinctio dolorem hic laudantium nesciunt perferendis possimus? Ab aliquam animi atque beatae delectus dicta doloremque esse est eveniet excepturi fuga hic illo illum incidunt ipsum iste laboriosam libero maiores mollitia non odio officia, officiis perferendis placeat praesentium quibusdam rem repellendus sapiente soluta suscipit tempore ullam velit vero! Beatae cupiditate deleniti earum eos eum illo modi neque nihil non odit, optio, provident ratione rerum sequi sit suscipit tempore.<br> Accusamus aliquam animi architecto at aut beatae commodi eos et ex excepturi explicabo fuga impedit ipsam ipsum laboriosam magnam maiores minima modi mollitia natus nemo nulla odit officiis pariatur perspiciatis quaerat quam ratione saepe sed, similique temporibus ullam voluptate voluptates! Animi corporis deserunt earum eius esse ex laborum neque, nulla odio quae recusandae, reprehenderit veritatis voluptates. Ad aliquid assumenda commodi deleniti deserunt doloremque explicabo molestias odit pariatur perferendis. Commodi expedita incidunt molestiae quasi!</p>
+                <h2>Come find out new things about me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolorem ducimus esse facilis, illo laudantium modi nisi sit sunt? A aliquid aut consequuntur deleniti, expedita fugit laborum minus, necessitatibus neque nesciunt non odit, qui quod tenetur voluptatum? Amet eaque est, eum exercitationem harum inventore, itaque nam non qui repellat sunt suscipit tenetur voluptas!</p>
+                <h3>Smaller point in here</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cumque eaque esse ex explicabo, impedit maiores nobis nulla pariatur repellat sequi sunt tempora. Nam, neque.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi culpa cupiditate ducimus hic iusto mollitia necessitatibus nemo nesciunt nulla ullam. Animi at, aut, consequuntur eos fugiat libero odit perspiciatis quia quibusdam quis, sequi sunt ullam velit? Ab alias aperiam assumenda aut blanditiis cum, eius est eum ex facere facilis fugiat fugit impedit ipsum magni maiores mollitia necessitatibus nisi nulla officia optio porro possimus praesentium quisquam quos sapiente similique sint sunt tenetur ut velit vero voluptate voluptatum? Accusamus aliquid blanditiis cum dolor dolorem, ea, esse expedita facilis id incidunt inventore ipsum nesciunt non odio porro quae quisquam sunt tempora totam ullam vero voluptatum!</p>
+            </section>
+            <aside>
+                <h3>Strongest 5 Bamboo</h3>
+                <ol>
+                    <li>Guadua angustifolia</li>
+                    <li>Dendrocalamus asper</li>
+                    <li>Dendrocalamus strictus</li>
+                    <li>Bambusa balcooa</li>
+                    <li>Bambusa bambos</li>
+                </ol>
+            </aside>
+        </div>
     </main>
 
     <footer>
-        <p>December 8, 2021 - December 15, 2021</p>
-        <p>Rob Honomichl</p>
-        <p>Web Development</p>
-        <p>Kalani Mangin</p>
+        <section>
+        </section>
+        <section>
+            <ul id="social-media">
+                <li><a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://pinterest.com" target="_blank" title="Pinterest"><i class="fab fa-pinterest"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://youtube.com" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <ul>
+                <li><a href="#"></a>Sitemap</li>
+                <li><a href="#"></a>Careers</li>
+                <li><a href="#"></a>News & Events</li>
+                <li><a href="#"></a>Return Policy</li>
+                <li><a href="#"></a>Suppliers</li>
+                <li><a href="#"></a>Employees</li>
+                <li><a href="#"></a>Privacy</li>
+                <li><a href="#"></a>Terms of Use</li>
+            </ul>
+            <span class="copyright">© 2021 Bamboo Emporium All rights reserved.</span>
+        </section>
     </footer>
 
 </body>

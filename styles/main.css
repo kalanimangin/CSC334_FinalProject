@@ -1,0 +1,189 @@
+*{margin: 0; padding: 0;}
+
+html{
+    background-color: #203d14;
+
+}
+/*************** Body ***************/
+body{
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), #203d14), url("../images/background.jpg");
+    background-size: cover;
+    font-family: Geneva, Calibri, sans-serif;
+    font-size: 1em;
+
+}
+/*************** Header ***************/
+header{
+    width: 100%;
+    background-color: #7cb73d;
+    padding-top: 2px;
+}
+header h1{
+    margin: 0;
+    padding: 10px 0;
+    color: #203d14;
+    font-size: 350%;
+}
+header h2{
+    margin: 0;
+    font-size: 200%;
+    padding: 0 0 20px 0;
+    color: #203d14;
+    font-style: italic;
+}
+header img{
+    width: 125px;
+    float: left;
+    margin: 10px;
+}
+
+/*************** Navigation ***************/
+nav{
+    padding-left: 50%;
+    background-color: #4c822f;
+    box-shadow: 0 3px 15px rgba(0,0,0,.15);
+}
+
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+    position: relative;
+    font-size: 150%;
+    width: 20%;
+}
+
+nav ul li a{
+    text-align: center;
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    background: rgba(0, 0, 0, .15);
+}
+
+nav ul li a:focus{
+    color: white;
+}
+
+nav ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul ul li{
+    float: none;
+    position: relative;
+    background: #4c822f;
+    width: 125%;
+    font-size: 70%;
+}
+
+nav ul ul li ul{
+    position: absolute;
+    left: -100%;
+    top: 0;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+nav::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/*************** Main ***************/
+main{
+    width: 80%;
+    min-height: 1000px;
+    margin: auto;
+    background-color: rgba(210, 225, 185, 0.88);
+}
+
+
+main section{
+    width: 65%;
+    margin: 40px;
+    float: left;
+    background: rgba(185, 199, 163, 0.88);
+    padding: 10px;
+}
+
+aside{
+    float: right;
+    width: 20%;
+    margin: 40px 40px 40px 0;
+    background: rgba(185, 199, 163, 0.88);
+    padding: 10px;
+}
+
+/*************** Text ***************/
+main h1{
+    font-size: 250%;
+    margin: 3px 15px;
+    text-align: center;
+}
+
+main h2{
+    margin-top: 3px;
+    font-size: 200%;
+}
+
+main h3{
+    font-size: 175%;
+}
+
+main p{
+    font-size: 125%;
+}
+
+aside li{
+    list-style-position: inside;
+}
+
+/*************** Footer ***************/
+footer{
+    background-color: #203d14;
+    width: 100%;
+    color: white;
+    text-align: center;
+    clear: both;
+}
+
+footer ul{
+    margin: 10px auto;
+}
+
+footer li{
+    display: inline;
+    padding-right: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer span{
+    margin-top: 50px;
+    font-size: 75%;
+}
+
+#social-media{
+    font-size: 150%;
+}
+/*************** links ***************/
