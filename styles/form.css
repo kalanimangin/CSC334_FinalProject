@@ -1,0 +1,72 @@
+section{
+    width: 90% !important;
+}
+
+fieldset{
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #203d14;
+}
+
+fieldset h3{
+    font-size: 115%;
+    color: #203d14;
+    clear: both;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 125%;
+    color: #203d14;
+}
+
+label{
+    font-weight: bold;
+    float: left;
+    display: block;
+    clear: left;
+    color: #203d14;
+    margin-bottom: 10px;
+    width: 165px;
+}
+
+.bulkSelect{
+    clear: none;
+    position: relative;
+}
+
+label img{
+    width: 150px;
+}
+
+input, select{
+    display: block;
+    width: 200px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+input[type="submit"], input[type="reset"]{
+    width: 150px;
+    float: left;
+    margin: 10px 20px 10px 0;
+    background-color: #203d14;
+    color: white;
+    clear: left;
+}
+
+input[type="checkbox"], input[type="radio"]{
+    width: 20px;
+    margin-right: 20px;
+}
+
+input:focus{
+    border: 5px solid #7cb73d;
+}
+
+.sign{
+    clear: none;
+}
+ label[class="sign"]{
+     padding-left: 23px;
+ }

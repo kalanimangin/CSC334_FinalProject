@@ -40,7 +40,7 @@ header img{
 
 /*************** Navigation ***************/
 nav{
-    padding-left: 50%;
+    padding-left: 35%;
     background-color: #4c822f;
     box-shadow: 0 3px 15px rgba(0,0,0,.15);
 }
@@ -109,8 +109,8 @@ nav::after{
 /*************** Main ***************/
 main{
     width: 80%;
-    min-height: 1000px;
-    margin: auto;
+    min-height: 500px;
+    margin: 0 auto;
     background-color: rgba(210, 225, 185, 0.88);
 }
 
@@ -149,6 +149,11 @@ main h3{
 
 main p{
     font-size: 125%;
+}
+
+main>p{
+    clear: both;
+    padding: 10px;
 }
 
 aside li{
